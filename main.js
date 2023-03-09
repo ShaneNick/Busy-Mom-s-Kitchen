@@ -28,6 +28,7 @@ fetch('https://webknox-recipes.p.rapidapi.com/recipes/visualizeRecipe', options)
 function getFoodList(){
     let searchInputTxt = document.getElementById('search-input').ariaValueMax.trim();
 }
-
+ //Aside, random recipe
+fetch('https://api.spoonacular.com/recipes/random?apiKey=8eaad0a5d1f7418493824951d345fe76')
 
 
