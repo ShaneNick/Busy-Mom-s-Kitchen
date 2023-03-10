@@ -138,3 +138,19 @@ aside {
     justify-content: center;
     
 }
+
+footer {
+   border: white;
+   background: grey;
+   margin: 50px;
+   padding: 80px;
+   display: flex;
+   justify-content: space-between;
+  
+   
+    
+    
+}
+
+
+
