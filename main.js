@@ -31,6 +31,7 @@ function getFoodList(){
 /*fetch('https://api.spoonacular.com/recipes/random?number=1&tags=vegetarian,dessert')
 .then((data) => {return data.json()});*/
 
+
 fetch('https://api.spoonacular.com/recipes/random?apiKey=8eaad0a5d1f7418493824951d345fe76')
     .then(function (response) {
       if (response.ok) {
