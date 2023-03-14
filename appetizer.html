@@ -1,37 +1,35 @@
+<!-- index.html -->
 <!DOCTYPE html>
-        <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-                <link rel="stylesheet" href="./assets/css/style.css">
-                <script src="./assets/script.js"></script>
-                <title>Document</title>
-            </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Breakfast Meals</title>
+  </head>
 
-        <body>
-            <div class="container-fluid bg-secondary d-flex  justify-content-center h1 h-50"> Appetizers </div>
-            
+  <body>
+    <div class="container-fluid bg-secondary d-flex justify-content-center h1 h-50"> Breakfast </div>
 
-            <section class="appetizerLink">
-                <div class="container bg-secondary">
-                  <h1>Recipe Suggestions</h1>
-                  <p class="Appetizerrecipe">
-                  </p>
-        
-                  <button class="btn btn-lg custom-btn">Recipe</button>
-                </div>
-              </section>
-        </div>
+    <section>
+      <div class="container bg-secondary">
+        <h1>All Recipes</h1>
+        <ul class="meal-list"></ul>
+      </div>
+    </section>
 
-            <div class="d-flex p-2"></div>
-                <div id="appetizerpage">
-                    <h2 class="appetizerName"></h2>
-                    <img class="appetizerImage">
-                    <p class ="appetizerSummary"></p>
-                    <p class ="appetizerInstructions"></p>
-                </div>
-            
-        </body>
-        </html>
+    <div class="d-flex p-2"></div>
+
+    <div id="breakfast-page">
+      <h2 class="meal-name"></h2>
+      <img class="meal-image">
+      <p class ="meal-summary"></p>
+      <p class ="meal-instructions"></p>
+    </div>
+    
+    <script src="./appetizer.js"></script>
+  </body>
+</html>
+

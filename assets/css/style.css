@@ -11,8 +11,6 @@ color: white;
 
 }
 
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -33,7 +31,6 @@ nav{
 nav ul {
     display: flex;
     list-style: none;
-    /* justify-content: right; */
     padding: 0;
 }
 
@@ -64,7 +61,6 @@ header input {
 .logo {
     width: 100px;
     height: auto;
-
 }
 .welcome-pg {
     border: white;
@@ -72,8 +68,7 @@ header input {
     padding: 100px;
     display: flex;
     justify-content: center;
-    height: 40px;
-    
+    height: 40px;  
 }
 
 .food-contanier {
@@ -124,39 +119,73 @@ aside {
     
 }
 
-.searchedFood{
+.search-Btn{
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;;
+}
+.text{
+  opacity: 0.8;
+}
+.title{
+  font-size: 2rem;
+  margin-bottom: 1rem;;
+}
+
+.container1{
+  min-height: 100vh;
+}
+
+.meal-wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.meal-search{
+  margin: 2rem 0;
+}
+
+.searchedFoodBox{
   margin: 1.2rem 0;
   display: flex;
   align-items: stretch;
 }
-
 .search-control,
 .search-Btn{
-  width: 100%;
+  width:100%;
 }
 
 .search-control{
-  padding: 0
-}
-.search-Bar{
-  padding : 0 1rem;
+  padding: 0 1rem;
   font-size: 1.1rem;
   font-family: inherit;
   outline: 0;
-  border:1px solid gray;
-  color: gray;
-  border-top-left-radius:2rem;
-  border-bottom-left-radius:2rem;
+  border: 1px solid teal;
+  color: teal;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
+.search-control ::placeholder{
+  color:teal;
+}
 
+.search-Btn{
+  width: 55px;
+  height: 55px;
+  font-size: 1.8rem;
+  background: teal;
+  
+}
 .notFound{
   grid-template-columns: 1fr!important;
   color: grey;
   font-size: 29px;
 }
-
-
 
 footer {
     display: flex;
@@ -175,7 +204,6 @@ footer p{
     font-size: 20px;
     align-items: center;
 }
-
 
 .div.txt_entered{
     width: fit-content;
@@ -231,7 +259,7 @@ form {
 
 
 .links {
-  background-color: grey;
+ background-color: grey;
  display: flex;
  flex-direction: column;
  align-items: center;
