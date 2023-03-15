@@ -100,11 +100,12 @@ header input {
 }
 
 aside h2 {
-  top: 70%;
-  left: 42%;
-
+   top: 70%;
+   left: 42%;
    position: absolute;
-   background-color: grey;   
+   background-color: grey;  
+   display: flex;
+    
 }
 
 aside img {
