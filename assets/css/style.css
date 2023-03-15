@@ -83,9 +83,10 @@ header input {
   background: grey;
   padding: 100px;
   display: flex;
+  flex: wrap;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 80px;
   font-size: large;
 
 
@@ -114,7 +115,13 @@ header input {
 }
 
 
-
+.recipeDay {
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
 
 
 #recipeOfTheDay {
@@ -402,6 +409,7 @@ form {
   /* header styles */
   header {
     height: 60px;
+
   }
 
   .navbar-rightside {
@@ -421,6 +429,7 @@ form {
   .welcome-pg {
     padding: 80px;
     height: 30px;
+    font-size: 30px;
   }
 
   .food-contanier {
