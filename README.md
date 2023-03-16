@@ -29,3 +29,6 @@ https://codepen.io/ahmadnasr/pen/rZKLgg
 https://www.w3schools.com/Css/css_navbar.asp
 stack overflow 
 
+Screenshot of Page:
+![image](https://user-images.githubusercontent.com/122586416/225482916-06f92e9d-4d11-40ea-94bd-47ad74248182.png)
+
